@@ -17,7 +17,7 @@
 ### Pedido
 - Os pedidos são criados por clinetes e possuem informmações de compra, endereçõ e status da entrega.
 - Um produto ou mais compoem o pedido.
-= O pedido pode sewr cancelado.
+= O pedido pode ser cancelado.
 
 
 
