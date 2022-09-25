@@ -6,7 +6,9 @@
 
 [Cronograma BootCamp](https://web.dio.me/track/database-experience)
 
-## Bootcamp sobre Banco de Dados, Modelamos um cenário de E-commerce.
+## Bootcamp sobre Banco de Dados
+
+## Modelamos um cenário de E-commerce.
 
 ## Narrativa - E-comerce
 ### Produto

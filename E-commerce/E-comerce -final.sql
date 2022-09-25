@@ -163,11 +163,22 @@ select * from clients;
 select count(*) from clients;
 
 select count(*) from clients, orders
-	where idClient = idOrderClient and Fname = 'Maria';
+	where idClient = idOrderClient and Fname = 'Maria'
+    order by idClient;
     
     -- JOIN
-select concat(Fname, ' ', Lname) as Cliente, idProduct, Pname  
+select concat(Fname, ' ', Lname) as Cliente, idProduct, Pname 
 from clients inner join orders on idOrderClient = idClient
 inner join productOrder on idPOproduct = idProduct
 where Pname = 'Fone%'
-order by idProduct, Pname;
+group by idProduct, Pname;
+
+-- Having
+
+select idProduct, Pname, count(*)
+ from product
+ where category = 'Eletrônicos'
+ having count(*)>=2;
+
+
+
